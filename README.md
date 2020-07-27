@@ -1,4 +1,4 @@
-twofactordjango
+django-TwoFactorAuthentication
 ---
 This Project will have the Implementation of TOTP validation with google authenticator for Django admin users. Main Aim of the project is add additional security feature for the admin users with TOTP validation.
 ---
