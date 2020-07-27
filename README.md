@@ -1,10 +1,10 @@
 twofactordjango
+---
 This Project will have the Implementation of TOTP validation with google authenticator for Django admin users. Main Aim of the project is add additional security feature for the admin users with TOTP validation.
-
-clone the directory and installed below packages and run it.
+---
 
 How it's works:
-The projects is works well with new version django 2.2.5 + version and python 3.7+ , please follow below steps to integrate two factor authentication in django based application. To achieve this we are using
+Please follow below steps to integrate two factor authentication in django based application. To achieve this we are using
 
 Basic config
 ```
