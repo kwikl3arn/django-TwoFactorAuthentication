@@ -35,8 +35,14 @@ MIDDLEWARE = [
 TWO_FACTOR_FORCE_OTP_ADMIN = True
 LOGIN_URL = 'two_factor:login'
 LOGIN_REDIRECT_URL = '/admin'  # Redirect admin dashboard
+
+```
 Migrate all your installed apps
 ```
+(venv) kwikl3arn:~/MYPROJECTS$ python manage.py makemigrations
+(venv) kwikl3arn:~/MYPROJECTS$ python manage.py migrate
+```
+urls.py
 ```
 from django.urls import path, include, re_path
 from two_factor.urls import urlpatterns as tf_urls
