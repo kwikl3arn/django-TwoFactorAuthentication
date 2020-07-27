@@ -4,7 +4,7 @@ This Project will have the Implementation of TOTP validation with google authent
 clone the directory and installed below packages and run it.
 
 How it's works:
-The projects is works well with new version django 2.2.5 version and python 3.7, postgresql. please follow below steps to integrate two factor authentication in django based application. To achieve this we are using
+The projects is works well with new version django 2.2.5 + version and python 3.7+ , please follow below steps to integrate two factor authentication in django based application. To achieve this we are using
 
 Basic config
 ```
